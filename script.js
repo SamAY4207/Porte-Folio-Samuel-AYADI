@@ -20,10 +20,11 @@ function remplirSwiper(projets) {
     const slide = document.createElement('div');
     slide.className = 'swiper-slide';
     slide.innerHTML = `
-      <div class="flex-column justify-center align-center mb-16 border-radius-15 p-16">
-        <h4 class="w-100 text-center mb-16">${projet.nom}</h4>
+      <div class="flex-column justify-center align-center border-radius-15 p-16 bg-purple">
+        <h4 class="w-100 text-center mb-16 jaune">${projet.nom}</h4>
+        <p class="w-100 text-center mb-16 blanc">Languages utilisés : ${projet.techno}</p>
         <img src="${projet.image}" alt="${projet.nom}" class="w-100 radius-15t mb-16" style="cursor: pointer;" onclick="window.open('${projet.lien}', '_blank')">
-        <a href="${projet.lien}" target="_blank" class="text-center">Voir le projet ↗</a>
+        <a href="${projet.lien}" target="_blank" class="text-center btn-2">Voir le projet ↗</a>
       </div>
     `;
     swiperWrapper.appendChild(slide);

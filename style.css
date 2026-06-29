@@ -1,6 +1,6 @@
 /* import de la typo */
 
-@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Lobster&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Mitr:wght@200;300;400;500;600;700&display=swap');
 
 /* ------------------------------
             RESET
@@ -48,8 +48,24 @@
             LARGEURS
  ---------------------------------*/
 
+.w-200 {
+    width: 200%;
+}
+
 .w-100 {
     width: 100%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-85 {
+    width: 85%;
 }
 
 .w-80 {
@@ -58,6 +74,14 @@
 
 .w-75 {
     width: 75%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-65 {
+    width: 65%;
 }
 
 .w-60 {
@@ -166,6 +190,15 @@
  ---------------------------------*/
 
 /* Margin */
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
 
 .mt-16 {
     margin-top: 16px;
@@ -286,7 +319,7 @@
  ---------------------------------*/
 
 a {
-    font-family: "Vend Sans", sans-serif;
+    font-family: "Mitr", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -297,7 +330,7 @@ a {
 }
 
 p {
-    font-family: "Vend Sans", sans-serif;
+    font-family: "Mitr", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -306,7 +339,7 @@ p {
 }
 
 ol {
-    font-family: "Vend Sans", sans-serif;
+    font-family: "Mitr", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -316,7 +349,7 @@ ol {
 }
 
 ul {
-    font-family: "Vend Sans", sans-serif;
+    font-family: "Mitr", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -325,76 +358,57 @@ ul {
 }
 
 li {
-    font-family: "Vend Sans", sans-serif;
+    font-family: "Mitr", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+    margin-bottom: 8px;
 }
 
 h1 {
-    font-family: "Lobster", sans-serif;
+    font-family: "Audiowide", sans-serif;
+    ;
     font-weight: 700;
     font-style: normal;
     font-size: 60px;
 }
 
 h2 {
-    font-family: "Baumans", sans-serif;
+    font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 48px;
 }
 
 h3 {
-    font-family: "Baumans", sans-serif;
+    font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 36px;
 }
 
 h4 {
-    font-family: "Baumans", sans-serif;
+    font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 28px;
 }
 
 h5 {
-    font-family: "Baumans", sans-serif;
+    font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
 }
 
+.fs-48 {
+    font-size: 48px;
+}
 
 /* ------------------------------
             Barres de progression
  ---------------------------------*/
-
-.progress-bar {
-
-    /* Tu appliques ce clip-path à 6 points */
-    clip-path: polygon(
-    0% 0%, 
-    calc(100% - 20px) 0%, 
-    100% 50%, 
-    calc(100% - 20px) 100%, 
-    0% 100
-);
-
-    /* Pour que les blocs s'emboîtent au millimètre près sans espace noir */
-    margin-left: -20px; 
-
-    border: none;
-    color: #31087B;
-    background-color: #FFC23C;
-    border-radius: 5px;
-    border-width: 3px;
-    border-style: solid;
-    padding: 16px;
-}
-
 
 
 
@@ -406,7 +420,7 @@ h5 {
 }
 
 .bg-purple {
-    background-color: #31087B;
+    background-color: #6419F0;
 }
 
 /* ------------------------------
@@ -429,7 +443,7 @@ Jaune : #FFC23C
 }
 
 .purple {
-    color: #31087B;
+    color: #6419F0;
 }
 
 .blanc {
@@ -441,46 +455,31 @@ Jaune : #FFC23C
 }
 
 .cardl-d1 {
-    background-color: #FFC23C;
-    border-radius: 15px 0 0 15px;
+    background-color: #FEEBF8;
+    border-radius: 15px 0px 0px 15px;
     padding: 16px;
-    color: #31087B;
-    fit-content: true;
+    color: #6419F0;
 }
 
 .cardr-d1 {
-    background-color: #31087B;
-    border-radius: 0 15px 15px 0;
+    background-color: #6419F0;
+    border-radius: 0px 15px 15px 0px;
     padding: 16px;
-    color: #FFC23C;
-}
-
-.cardb-d1 {
-    background-color: #FEEBF8;
-    border-radius: 0px 0px 15px 15px;
-    padding: 16px;
-    color: #31087B;
-}
-
-.cardb-d2 {
-    background-color: #FFC23C;
-    border-radius: 0px 0px 15px 15px;
-    padding: 16px;
-    color: #080411;
+    color: #FEEBF8;
 }
 
 .card-1 {
-    background-color: #FFC23C;
+    background-color: #6419F0;
     border-radius: 15px;
     padding: 16px;
-    color: #31087B;
+    color: #FEEBF8;
 }
 
 .card-2 {
     background-color: #FEEBF8;
     border-radius: 15px;
     padding: 16px;
-    color: #31087B;
+    color: #6419F0;
 }
 
 .card-3 {
@@ -490,8 +489,50 @@ Jaune : #FFC23C
     color: #FFC23C;
 }
 
+.btn-1 {
+    background-color: #6419F0;
+    border-radius: 10px;
+    padding: 10px;
+    color: #FFC23C;
+}
 
+.btn-2 {
+    background-color: #FFC23C;
+    border-radius: 10px;
+    padding: 10px;
+    color: #6419F0;
+}
 
+.fleche-1 {
+    background-color: #6419F0;
+    color: #FEEBF8;
+    border-radius: 5px;
+    padding: 16px;
+    clip-path: polygon(
+    calc(100% - 20px) 0%,
+    100% 50%,
+    calc(100% - 20px) 100%,
+    0% 100%,
+    20px 50%,
+    0% 0%
+);
+
+}
+
+.fleche-2 {
+    background-color: #FEEBF8;
+    color: #6419F0;
+    border-radius: 5px;
+    padding: 16px;
+    clip-path: polygon(
+    calc(100% - 20px) 0%,
+    100% 50%,
+    calc(100% - 20px) 100%,
+    0% 100%,                
+    20px 50%,               
+    0% 0%
+);
+}
 
 
 .radius-15l {
@@ -579,12 +620,12 @@ body {
 }
 
 .swiper-pagination-bullet {
-    background: rgba(255,194,60,0.35);
+    background: rgba(255, 194, 60, 0.35);
     opacity: 0.6;
 }
 
 .swiper-pagination-bullet-active {
     background: #FFC23C;
     opacity: 1;
-    box-shadow: 0 0 0 4px rgba(255,194,60,0.12);
+    box-shadow: 0 0 0 4px rgba(255, 194, 60, 0.12);
 }
