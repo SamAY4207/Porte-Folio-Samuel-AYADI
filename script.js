@@ -24,7 +24,7 @@ function remplirSwiper(projets) {
         <h2 class="w-100 text-center mb-16 jaune">${projet.nom}</h2>
         <h5 class="w-100 text-center mb-16 blanc">Languages utilisés : ${projet.techno}</h5>
         <img src="${projet.image}" alt="${projet.nom}" class="w-100 radius-15 mb-16" style="cursor: pointer;" onclick="window.open('${projet.lien}', '_blank')">
-        <a href="${projet.lien}" target="_blank" class="text-center btn-2 top-32"><h4>Voir le projet</h4></a>
+        <a href="${projet.lien}" target="_blank" class="text-center btn-2 top-40"><h4>Voir le projet</h4></a>
       </div>
     `;
     swiperWrapper.appendChild(slide);
